@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">Rock Paper Scissor</header>
+    <div class="container">
+        <div class="box">
+            <div class="user-box">Player</div>
+            <div class="timer-box">
+                <h1 id="userScore">0</h1>
+                <h1 id="vs">:</h1>
+                <h1 id="compScore">0</h1>
+            </div>
+            <div class="comp-box">Computer</div>
+        </div>
+    </div>
+
+    <h2 id="plain-text">Start the Game.</h2>
+    <div class="container">
+        <div id="rock" class="circle-1">
+            <img src="https://www.svgrepo.com/show/323925/rock.svg" alt="Rock"
+                style="height: 150px; width: 150px; border-radius: 75px;" />
+        </div>
+        <div id="paper" class="circle-2">
+            <img src="https://www.svgrepo.com/show/479042/palm.svg" alt="Rock" style="
+            height: 135px;
+            width: 135px;
+            border-radius: 50px;
+            margin-top: 0.5rem;
+            margin-right: 0.6rem;
+          " />
+        </div>
+        <div id="scissor" class="circle-3">
+            <img src="https://www.svgrepo.com/show/455978/peace.svg" alt="Scissor" style="
+            height: 130px;
+            width: 130px;
+            border-radius: 50px;
+            margin-top: 0.7rem;
+          " />
+        </div>
+    </div>
+    <h3>Make your move.</h3>
+    <button id="auto-play" class="auto-play-button">Auto Play</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
