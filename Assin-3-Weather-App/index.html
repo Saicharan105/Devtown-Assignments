@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Weather-App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div>
+      <input id="input" type="text" placeholder="Enter city" />
+      <button id="button">
+        Get Weather
+      </button>
+    </div>
+
+    <div id="weather-data">
+      <div>
+        <img src="./images/rain.png" alt="Cloud-img" class="icon" width="100px" height="100px" />
+      </div>
+      <div class="temperature">22<sup>o</sup>C</div>
+      <div class="city">New York</div>
+      <div class="discription">Sunny</div>
+      <div class="details">
+        <div class="col">
+          <img src="./images/humidity.png" alt="" />
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./images/wind.png" alt="" />
+          <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
